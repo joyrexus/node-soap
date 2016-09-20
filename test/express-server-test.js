@@ -35,7 +35,7 @@ describe('Express server without middleware', function() {
           sayHello: function(args){
             return {
               greeting: args.firstName
-            }
+            };
           }
         }
       }
@@ -119,7 +119,7 @@ describe('Express server with middleware', function() {
           sayHello: function(args){
             return {
               greeting: args.firstName
-            }
+            };
           }
         }
       }
